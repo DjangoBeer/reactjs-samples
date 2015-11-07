@@ -1,0 +1,17 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.0.15",
+    "babelify": "^7.2.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  }
+}
