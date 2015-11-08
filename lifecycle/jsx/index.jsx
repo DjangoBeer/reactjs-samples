@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import BeerBox from './beerbox';
 import CountDown from './countdown';
 

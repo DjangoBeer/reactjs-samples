@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 
 class CountDown extends React.Component {
@@ -15,7 +14,7 @@ class CountDown extends React.Component {
     let refreshIntervalId = setInterval(() => {
       if (this.state.time == -1) {
         clearInterval(refreshIntervalId);
-        ReactDOM.unmountComponentAtNode(document.getElementById('timer'));
+        React.unmountComponentAtNode(document.getElementById('timer'));
         return;
       }
       this.setState({time: this.state.time - 1});
